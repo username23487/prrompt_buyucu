@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal Ortam (Virtual Environment)
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Hassas Bilgiler
+.env
+.env.*
+*.env
+
+# IDE ve Editör Dosyaları
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
