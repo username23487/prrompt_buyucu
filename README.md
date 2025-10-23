@@ -18,7 +18,7 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izley
 ### 1. Projeyi Klonlayın
 
 ```bash
-git clone https://github.com/KULLANICI-ADINIZ/sinefil-dostum-chatbot.git
+git clone https://github.com/username23487/prrompt_buyucu.git
 cd sinefil-dostum-chatbot
 ```
 
