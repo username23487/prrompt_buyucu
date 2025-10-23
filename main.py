@@ -14,7 +14,7 @@ import os
 # bu dosyayı ASLA GitHub gibi herkese açık bir platforma yüklemeyin!
 # .gitignore dosyanızın bu dosyayı korumadığını unutmayın.
 # ==============================================================================
-API_KEY_IN_CODE = "AIzaSyB-Od_6la5giXTqb9gj9Pu_YQpy_hhA97Q"
+API_KEY_IN_CODE = "YOUR_GEMINI_API_KEY_HERE"
 
 
 def configure_api_key():
@@ -33,7 +33,7 @@ def configure_api_key():
         return True
 
     # 2. Kod içine yazılmış anahtarı kontrol et
-    if API_KEY_IN_CODE != "AIzaSyB-Od_6la5giXTqb9gj9Pu_YQpy_hhA97Q":
+    if API_KEY_IN_CODE != "YOUR_GEMINI_API_KEY_HERE":
         genai.configure(api_key=API_KEY_IN_CODE)
         print("✅ API anahtarı kod içerisinden başarıyla yüklendi.")
         print("   ⚠️ UYARI: API anahtarınızı kod içine yazdınız. Bu dosyayı herkese açık yerlerde paylaşmamaya dikkat edin!")
@@ -64,7 +64,7 @@ def main():
 
     # Chatbot'umuz için ana (master) prompt.
     MASTER_PROMPT = """
-    ROL/PERSONAL:
+    ROL/PERSONA:
     Sen, Netflix, HBO, Disney+ gibi tüm platformlardaki içeriklere hakim, sinema ve dizi kültürünü yakından takip eden, adı 'Sinefil Dostum' olan, arkadaş canlısı ve bilgili bir sohbet arkadaşısın.
 
     AMAÇ:
