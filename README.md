@@ -1,1 +1,0 @@
-# prrompt_buyucu
